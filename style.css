@@ -7,7 +7,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background: linear-gradient(45deg, #ff7e5f, #feb47b); /* Gradient Background */
+    background: linear-gradient(45deg, #625fff, #cf6dd8); /* Gradient Background */
     color: #333;
 }
 
@@ -67,7 +67,7 @@ nav ul li a:hover {
 /* Section Styles */
 .section {
     padding: 60px 0;
-    background: #b61919;
+    background: linear-gradient(90deg,#625fff, #cf6dd8); /* Gradient Background */
     margin: 20px 15px;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
@@ -80,9 +80,10 @@ h2 {
 }
 
 p {
-    font-size: 18px;
+    font-size: 1.rem;
     line-height: 1.6;
     text-align: center;
+    color: #ccc;
 }
 
 /* Skills Section */
@@ -129,7 +130,7 @@ p {
 }
 
 .project-card {
-    background-color: #fffefe;
+    background: linear-gradient(-45deg, #625fff, #cf6dd8); /* Gradient Background */
     border-radius: 10px;
     padding: 25px 90px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
@@ -144,7 +145,7 @@ p {
 
 .project-card .btn {
     padding: 12px 25px;
-    background-color: #4c7eca;
+    background-color: #b271c5;
     color: white;
     text-decoration: none;
     border-radius: 5px;
@@ -169,7 +170,7 @@ form textarea {
 form button {
     width: 100%;
     padding: 15px;
-    background-color: #ff7e5f;
+    background-color: #b271c5;
     color: white;
     border: none;
     border-radius: 8px;
@@ -178,12 +179,12 @@ form button {
 }
 
 form button:hover {
-    background-color: #feb47b;
+    background-color: #2958be;
 }
 
 /* Footer Section */
 footer {
-    background-color: #4e73df;
+    background: linear-gradient(90deg,#625fff, #cf6dd8); /* Gradient Background */
     padding: 20px 0;
     color: white;
     text-align: center;
@@ -201,7 +202,7 @@ footer .social-links a {
 }
 
 footer .social-links a:hover {
-    color: #ffcc00;
+    color: #01042e;
 }
 
 footer p {
